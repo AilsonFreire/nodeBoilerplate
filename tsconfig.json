@@ -3,16 +3,17 @@
         "module": "commonjs",
         "esModuleInterop": true,
         "target": "es2016",
+        "outDir": "./dist",
         "noImplicitAny": true,
         "moduleResolution": "node",
         "strictNullChecks": true,
         "sourceMap": true,
-        "baseUrl": ".",
+        // "baseUrl": ".",
         // "paths": {
-        // "types/*": ["./src/types/*"],
-        // "@modules/*": ["./src/modules/*"],
-        // "@config/*": ["./src/config/*"],
-        // "@utils/*": ["./src/utils/*"]
+        //     "types/*": ["./src/types/*"],
+        //     "@modules/*": ["./src/modules/*"],
+        //     "@config/*": ["./src/config/*"],
+        //     "@utils/*": ["./src/utils/*"]
         // },
         "declaration": true,
     },
