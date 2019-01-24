@@ -1,11 +1,11 @@
 import express from "express";
 import passport from "passport";
-import GoogleStrategy from "passport-google-oauth20";
+import GoogleStrategy from "passport-google-oauth2";
 
 
 const app = express();
 
-passport.use(new GoogleStrategy());
+// passport.use(new GoogleStrategy());
 
 const PORT: number = parseInt(<string>process.env.PORT) || 5000;
 

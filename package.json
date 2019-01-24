@@ -10,7 +10,7 @@
     "express": "^4.16.4",
     "nodemon": "^1.18.9",
     "passport": "^0.4.0",
-    "passport-google-oauth20": "^1.0.0",
+    "passport-google-oauth2": "^0.1.6",
     "ts-node": "^7.0.1",
     "tslint": "^5.12.1",
     "typescript": "^3.2.4"
@@ -22,5 +22,10 @@
     "serve": "node dist/server.js",
     "watch-node": "nodemon dist/server.js",
     "watch-ts": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.13",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5"
   }
 }
