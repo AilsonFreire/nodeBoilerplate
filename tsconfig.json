@@ -8,13 +8,13 @@
         "moduleResolution": "node",
         "strictNullChecks": true,
         "sourceMap": true,
-        // "baseUrl": ".",
-        // "paths": {
+        "baseUrl": ".",
+        "paths": {
         //     "types/*": ["./src/types/*"],
         //     "@modules/*": ["./src/modules/*"],
-        //     "@config/*": ["./src/config/*"],
+            "@config/*": ["./src/config/*"],
         //     "@utils/*": ["./src/utils/*"]
-        // },
+        },
         "declaration": true,
     },
     "include": ["./src/**/*"]
