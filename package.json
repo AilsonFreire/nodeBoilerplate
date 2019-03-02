@@ -8,12 +8,16 @@
     "@types/passport": "^1.0.0",
     "@types/passport-google-oauth2": "^0.1.2",
     "express": "^4.16.4",
+    "module-alias": "^2.2.0",
     "nodemon": "^1.18.9",
     "passport": "^0.4.0",
     "passport-google-oauth2": "^0.1.6",
     "ts-node": "^7.0.1",
     "tslint": "^5.12.1",
     "typescript": "^3.2.4"
+  },
+  "_moduleAliases": {
+     "@config": "dist/config"
   },
   "scripts": {
     "start": "nodemon",
