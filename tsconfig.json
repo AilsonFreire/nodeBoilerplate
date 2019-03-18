@@ -13,9 +13,18 @@
             "@config/*": ["config/*"],
             "@routes/*": ["routes/*"],
             "@services/*":["services/*"],
-            "@types/*": ["types/*"]
+            "@types/*": ["types/*"],
+            "@models/*":["models/*"]
         },
         "declaration": true,
     },
-    "include": ["./src/**/*"]
+    "files": [
+        "./node_modules/@types/node/index.d.ts"
+     ],
+     "include": [
+        "src/**/*.ts"
+     ],
+     "exclude": [
+        "node_modules"
+     ]
 }

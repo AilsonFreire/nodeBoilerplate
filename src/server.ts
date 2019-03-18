@@ -1,7 +1,12 @@
 import "module-alias/register";
 import express from "express";
-import "@services/passport";
+import mongoose from "mongoose";
 import AuthRoutes from "@routes/authRoutes";
+import keys  from "@config/keys";
+import "@models/User";
+import "@services/passport";
+
+mongoose.connect(keys.mongoURI);
 
 const app = express();
 

@@ -5,11 +5,13 @@
   "dependencies": {
     "@types/express": "^4.16.0",
     "@types/module-alias": "^2.0.0",
+    "@types/mongoose": "^5.3.23",
     "@types/node": "^10.12.18",
     "@types/passport": "^1.0.0",
     "@types/passport-google-oauth2": "^0.1.2",
     "express": "^4.16.4",
     "module-alias": "^2.2.0",
+    "mongoose": "^5.4.19",
     "nodemon": "^1.18.9",
     "passport": "^0.4.0",
     "passport-google-oauth2": "^0.1.6",
@@ -21,7 +23,8 @@
     "@config": "dist/config",
     "@routes": "dist/routes",
     "@services": "dist/services",
-    "@types": "dist/types"
+    "@types": "dist/types",
+    "@models":"dist/models"
   },
   "scripts": {
     "start": "nodemon",
