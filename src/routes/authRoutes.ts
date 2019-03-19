@@ -7,4 +7,8 @@ export = (app: App) => {
     }));
 
     app.get("/auth/google/callback", passport.authenticate("google"));
+
+    app.get("/api/current_user", (req: any, res: any) => {
+        res.send(req.user);
+    });
 };
