@@ -4,9 +4,10 @@ import mongoose from "mongoose";
 import AuthRoutes from "@routes/authRoutes";
 import cookieSession from "cookie-session";
 import passport from "passport";
-import keys from "@config/keys";
 import "@models/User";
 import "@services/passport";
+
+const  keys = require("@config/keys");
 
 mongoose.connect(keys.mongoURI);
 

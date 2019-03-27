@@ -6,6 +6,11 @@ export = (app: App) => {
         scope: ["profile", "email"]
     }));
 
+    app.get("/api/logout", (req, res) => {
+        req.logout();
+        res.send(req.user);
+    });
+
     app.get("/auth/google/callback", passport.authenticate("google"));
 
     app.get("/api/current_user", (req: any, res: any) => {
